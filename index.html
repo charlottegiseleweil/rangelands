@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- To include Spanish accents -->
+
+<html>
+  <head>
+    <title>RPM - Rangelands Production Model</title>
+    <!-- - - - - - - - -  -->
+    <!-- Needed for Navbar-->
+    <link rel="stylesheet" href="lib/css/tachyons.min.css" />
+    <link rel="stylesheet" href="css/dropdown.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="css/overlay.css" />
+    <script src="lib/js/includehtml.js"></script>
+
+    <!-- End Of About Overlay -->
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="   crossorigin="anonymous"></script>
+    <!-- End Of: Needed for Navbar-->
+    <!-- - - - - - - - -  - - - - -->
+
+    <link rel="stylesheet" href="css/style.css" />
+
+
+  </head>
+
+  <body class="bg-black-90 white-80 avenir fw5">
+    <nav id="navbar">
+      <div w3-include-html="html/navbar.html"></div>
+    </nav>
+    <div class="flex">
+      <div class="w-70">
+        <div>
+          <iframe
+            style="width: 100%; height: 90vh; background-color: darkblue;"
+
+            
+          ></iframe>
+          <!-- Above :
+            src="https://charlotte.users.earthengine.app/view/pampa1"  -->
+        </div>
+      </div>
+      <div class="w-30 rightPanel" id="rightPanelPampa">
+
+          <h4> Rangelands Production Model<i> (RPM)</i></h4>
+          <p>This prototype viewer shows a static set of model outputs from an example RPM run in the Gobi desert of Mongolia. Explore time series of rangeland- and animal-related outputs by clicking on the map.
+          <a href="about.html">Read more about the model</a>
+          </p>
+
+          <h4> Demo: how to use? (Video here)</h4>
+          <div id="video"><embed src="https://youtube.com/embed/gLHKF12sufA" allowfullscreen="true" style="padding:10px; width: 100%;"></div>
+          <br>
+
+      </div>
+    </div>
+  </body>
+  
+
+  <!-- Needed for Navbar-->
+  <script>includeHTML();</script>
+  <script src="js/overlay.js"></script>
+
+</html>
+
